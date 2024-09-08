@@ -1,0 +1,22 @@
+			{
+			  "stock": [
+				{
+				  "SKU": "A1",
+				  "item": "Platano",
+				  "countable": 10,
+				  "blocked": 2
+				},
+				{
+				  "SKU": "A2",	
+				  "item": "Manzana",
+				  "countable": 12,
+				  "blocked": 0
+				},
+				{
+				  "SKU": "A3",	
+				  "item": "Coco",
+				  "countable": 0,
+				  "blocked": 0
+				}
+			  ]
+			}
