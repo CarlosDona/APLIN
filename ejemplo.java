@@ -33,8 +33,6 @@ public class InventarioEjemplo {
                     if (level != null) {
                         level.booked += line.getQuantity();
 						
-						// un arreglo que lleve cuentas de almacen, comprometridos, podridos y al final incluirlos en las sumas generales del mismo item
-
                         // Calcular la cantidad faltante si no hay suficiente stock
                         if (line.getQuantity() > level.getAvailable()) {
                             level.missing += line.getQuantity() - level.getAvailable();
